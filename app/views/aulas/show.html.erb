@@ -1,34 +1,18 @@
-<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Título:</strong>
-  <%= @aula.title %>
-</p>
-
-<p>
-  <strong>Descrição:</strong>
-  <%= @aula.description %>
-</p>
-
-<p>
-  <strong>Vídeo:</strong>
-  <%= @aula.video %>
-</p>
-
-<p>
-  <strong>Data de Publicação:</strong>
-  <%= @aula.publication %>
-</p>
-
-<p>
-  <strong>Data Final:</strong>
-  <%= @aula.end_date %>
-</p>
-
-<p>
-  <strong>Observação:</strong>
-  <%= @aula.obs %>
-</p>
+<div class="row">
+  <div class="col-3"><th><b>Título:</b></th></div> <!-- 25% -->
+  <div class="col-9"><td><%= @aula.title %></td><br></div> <!-- 75% -->
+  <div class="col-3"><th><b>Descrição:</b></th></div> <!-- 25% -->
+  <div class="col-9"><td><%= @aula.description %></td></div> <!-- 75% -->
+  <div class="col-3"><th><b>Vídeo:</b></th></div> <!-- 25% -->
+  <div class="col-9"><td><%= @aula.video %></td></div> <!-- 75% -->
+  <div class="col-3"><th><b>Data de Publicação:</b></th></div> <!-- 25% -->
+  <div class="col-9"><td><%= @aula.publication %></td></div> <!-- 75% -->
+  <div class="col-3"><th><b>Data Final:</b></th></div> <!-- 25% -->
+  <div class="col-9"><td><%= @aula.end_date %></td></div> <!-- 75% -->
+  <div class="col-3"><th><b>Observação:</b></th></div> <!-- 25% -->
+  <div class="col-9"><p id="notice"><%= notice %></p></div> <!-- 75% -->
+</div>
 
 <%= link_to 'Edit', edit_aula_path(@aula) %> |
 <%= link_to 'Back', aulas_path %>
