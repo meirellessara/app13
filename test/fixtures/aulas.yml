@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  video: MyString
+  publication: 2020-06-09
+  end_date: 2020-06-09
+  obs: MyText
+
+two:
+  title: MyString
+  description: MyText
+  video: MyString
+  publication: 2020-06-09
+  end_date: 2020-06-09
+  obs: MyText

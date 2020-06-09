@@ -1,0 +1,23 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+    background-color: #F5F5F5;
+    background-size: 960px 600px;
+}
+
+h1 {
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: #008B8B;
+}
+
+main {
+    width:960px;
+    margin:10px auto;
+    box-shadow:0 0 10px #999999;
+    background-color:rgb(255,255,255);
+    font-size:13px;
+    min-width: 960px;
+}
